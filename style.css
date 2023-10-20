@@ -334,6 +334,16 @@ footer{
 
 
 }
+@media screen and ( max-width:600px){
+.proj{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+}
+        
+    
 
            
 
