@@ -1,0 +1,350 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color:white;
+}
+#page1{
+    width:100%;
+    height:100vh;
+
+    background-image: url('./vscode/backgroung.jpg');
+    background-repeat: no-repeat;
+    
+
+}
+.nav{
+    padding:10px 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(221, 53, 81, 0.808);
+    margin-bottom: 40px;
+    position: sticky;
+    
+}
+.links div{
+    
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    
+
+}
+.head{
+    color:white;
+    font-weight: 800;
+    padding:4px;
+    font-size:2rem;
+    letter-spacing: 1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.05rem;
+    padding: 4px 4px;
+}
+.links div a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background-color: rgb(16, 1, 4);
+    position: absolute;
+    left:0;
+    bottom:-0.3px;
+    transition: 0.5s;
+
+}
+.page1 a:hover::after{
+    width:100%;
+}
+.para{
+    font-size: 2.4rem;
+    text-align: center;
+    color:white;
+    letter-spacing: 1px;
+}
+.para1{
+    font-size: 20px;
+    text-align: center;
+    padding:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+   
+}
+.para1:hover{
+    color: rgba(221, 53, 81, 0.808);
+}
+.intro{
+    margin-top: 35px;
+}
+.img{
+    background-color: antiquewhite;
+    height:250px;
+    width:250px;
+    background-image: url("./vscode/profile3.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    border-radius: 50%;
+    display:block;
+    margin: auto;
+
+    
+    
+}
+#page2{
+    width:100%;
+    height:100vh;
+    background-image: url('./vscode/backgroung.jpg');
+    background-repeat: no-repeat;
+    overflow: scroll;
+
+
+}
+.me{
+    font-size: 30px;
+    font-weight:600;
+    margin:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    background-color: rgba(167, 55, 74, 0.658);
+    margin-bottom: 100px;
+
+
+}
+.me:after{
+    content:'';
+    width:0;
+    height:3px;
+    background-color: rgb(243, 235, 237);
+    position: absolute;
+    left:0;
+    bottom:-4px;
+    transition: -0.4s;
+
+}
+.me:hover::after{
+    width:100%;
+}
+.about{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20.5px;
+    margin:80px;
+letter-spacing: 1px;
+}
+    #page3{
+        width:100%;
+        height:100vh;
+        padding:80px 80px;
+        background-image: url('./vscode/backgroung.jpg');
+        background-repeat: no-repeat;
+        
+    }
+    .proj{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        
+        
+
+    
+    }
+    .title{
+        color:rgb(213, 45, 45);
+        font-size: 55px;
+        font-weight:800;
+        margin: 25px;
+        margin-bottom:10px;
+    }
+    .proj p{
+        color:black;
+        font-size: 20px;
+        margin-bottom:20px;
+        padding: 10px ;
+    }
+    .box1{
+        flex-basis:35%;
+        width:100%;
+        height: 300px;
+        border:2px rgb(181, 39, 63) solid;
+        border-radius: 10px;
+        text-align: center;
+        background-image: url('./vscode/portpg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .box2{
+        flex-basis:35%;
+        width:100%;
+        height: 300px;
+        border:2px rgb(181, 39, 63) solid;
+        border-radius: 10px;
+        text-align: center;
+        background-image: url('./vscode/temp1bg.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin:40px;
+    
+    }
+    
+    .proj a {
+        color:rgb(201, 38, 65);
+        font-size:18px;
+        font-weight: 900;
+        text-decoration:none ;
+        padding: 10px;
+       
+        background-color: rgba(25, 23, 31, 0.844);
+    }
+    .head2{
+        font-size: 30px;
+        font-weight:600;
+        margin:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        background-color: rgba(167, 55, 74, 0.658);
+    
+    
+    }
+    .head2:after{
+        content:'';
+        width:0;
+        height:3px;
+        background-color: rgb(243, 235, 237);
+        position: absolute;
+        left:0;
+        bottom:-4px;
+        transition: -0.4s;
+    
+    }
+    .head2:hover::after{
+        width:100%;
+    }
+    #page4{
+        width:100%;
+        height:100vh;
+    
+        background-image: url('./vscode/backgroung.jpg');
+        background-repeat: no-repeat;
+    
+
+    
+
+    }
+    .head3{
+        font-size: 30px;
+        font-weight:600;
+        margin:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        background-color: rgba(167, 55, 74, 0.658);
+        margin-bottom: 150px;
+    
+    
+    }
+    .head3:after{
+        content:'';
+        width:0;
+        height:3px;
+        background-color: rgb(243, 235, 237);
+        position: absolute;
+        left:0;
+        bottom:-4px;
+        transition: -0.4s;
+    
+    }
+    .head3:hover::after{
+        width:100%;
+    }
+    .page4{
+        width:100%;
+        height: 100vh;
+    
+    }
+    .content{
+        margin:80px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .media{
+        display:flex;
+    }
+      
+
+        .media a{
+            padding:8px;
+             color: rgba(193, 187, 187, 0.885);
+            font-size:40px;
+        }
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    input, textarea{
+    padding:10px;
+    margin:15px;
+    height: 60px;
+    width:100%;
+    background-color: rgba(231, 239, 238, 0.696);
+    border:none;
+    border-radius: 5px;
+}
+.submit{
+    background-color: rgb(103, 26, 39);
+    width:50%;
+    border-radius:20px ;
+}
+.submit:hover{
+    background-color: rgba(72, 72, 197, 0.881);
+}
+::placeholder,.submit{
+    font-size: 18px;
+    color:black;
+
+}
+.media a:hover{
+    color: rgba(72, 72, 197, 0.881);
+}
+footer{
+    font-size: 20px;
+    font-weight:100;
+    
+    margin:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: rgba(167, 55, 74, 0.658);
+    text-align: center;
+
+
+}
+
+           
+
+
+    
+
+  
+
+
+
+
+
+
+
