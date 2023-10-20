@@ -12,7 +12,7 @@ body{
     width:100%;
     height:100vh;
 
-    background-image: url('/.vscode/backgroung.jpg');
+    background-image: url('/backgroung.jpg');
     background-repeat: no-repeat;
     
 
@@ -87,7 +87,7 @@ body{
     background-color: antiquewhite;
     height:250px;
     width:250px;
-    background-image: url("./vscode/profile3.jfif");
+    background-image: url("./profile3.jfif");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -102,7 +102,7 @@ body{
 #page2{
     width:100%;
     height:100vh;
-    background-image: url('./vscode/backgroung.jpg');
+    background-image: url('./backgroung.jpg');
     background-repeat: no-repeat;
     overflow: scroll;
 
@@ -144,7 +144,7 @@ letter-spacing: 1px;
         width:100%;
         height:100vh;
         padding:80px 80px;
-        background-image: url('./vscode/backgroung.jpg');
+        background-image: url('./backgroung.jpg');
         background-repeat: no-repeat;
         
     }
@@ -179,7 +179,7 @@ letter-spacing: 1px;
         border:2px rgb(181, 39, 63) solid;
         border-radius: 10px;
         text-align: center;
-        background-image: url('./vscode/portpg.jpg');
+        background-image: url('./portpg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
     
@@ -191,7 +191,7 @@ letter-spacing: 1px;
         border:2px rgb(181, 39, 63) solid;
         border-radius: 10px;
         text-align: center;
-        background-image: url('./vscode/temp1bg.jpg');
+        background-image: url('./temp1bg.jpg');
         background-size:cover;
         background-repeat: no-repeat;
         margin:40px;
@@ -236,7 +236,7 @@ letter-spacing: 1px;
         width:100%;
         height:100vh;
     
-        background-image: url('./vscode/backgroung.jpg');
+        background-image: url('./backgroung.jpg');
         background-repeat: no-repeat;
     
 
